@@ -1,0 +1,25 @@
+#!/usr/bin/env ruby
+
+require 'dicker'
+
+argument = ARGV[0]
+project = ARGV[1]
+
+if !argument.nil?
+  case argument
+  when 'dynamic'
+    Dicker.static(project, 'dynamic')
+  when 'static'
+    Dicker.static(project)
+  else
+    puts "--> Avaliable tasks:"
+    puts "\n"
+    puts " - static"
+    puts " - dynamic"
+    puts "\n"
+    puts "Ensure you provide a name for the project after a command call"
+  end
+else
+  puts "--> Please ensure you type a method!"
+  puts "--> Type 'dicker tasks' to view a list of commands..."
+end

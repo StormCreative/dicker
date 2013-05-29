@@ -1,0 +1,1 @@
+s.executables << 'dicker'
