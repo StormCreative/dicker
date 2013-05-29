@@ -1,6 +1,6 @@
 # Dicker
 
-TODO: Write a gem description
+Tinkering with the way of creating a gem. Just a simple Gem that clones our in-house static or dynamic framework
 
 ## Installation
 

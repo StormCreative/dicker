@@ -1,5 +1,4 @@
 module Dicker
-  
   def self.static(title, type="static")
     puts "--> Building #{type} project named: #{title}"
     build = Build.new(title)
@@ -17,6 +16,12 @@ module Dicker
     end
   end
 
+  def self.server
+    commands = Commands.new
+    commands.server
+  end
 end
+
 require 'dicker/build'
+require 'dicker/commands'
 require 'dicker/version'

@@ -11,6 +11,8 @@ if !argument.nil?
     Dicker.static(project, 'dynamic')
   when 'static'
     Dicker.static(project)
+  when 'server'
+    Dicker.server
   else
     puts "--> Avaliable tasks:"
     puts "\n"
