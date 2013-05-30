@@ -14,5 +14,5 @@ Call the gem
     
 Views tasks
 
-    gem tasks
+    dicker tasks
     
