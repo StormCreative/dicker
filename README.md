@@ -4,26 +4,15 @@ Tinkering with the way of creating a gem. Just a simple Gem that clones our in-h
 
 ## Installation
 
-Add this line to your application's Gemfile:
+Install the gem
 
-    gem 'dicker'
+    gem install dicker
 
-And then execute:
+Call the gem
 
-    $ bundle
+    dicker
+    
+Views tasks
 
-Or install it yourself as:
-
-    $ gem install dicker
-
-## Usage
-
-TODO: Write usage instructions here
-
-## Contributing
-
-1. Fork it
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
+    gem tasks
+    
